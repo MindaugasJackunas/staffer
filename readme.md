@@ -6,7 +6,7 @@ Simple database driven staff register with console interface.
 
 Extra requirement: do not use any external package except for PHPUnit.
 
-## Application equirements ##
+## Application requirements ##
 
 * Composer
 * PHP 7.0+
