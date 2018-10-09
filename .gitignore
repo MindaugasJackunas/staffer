@@ -1,0 +1,6 @@
+.vagrant/
+.idea
+/vendor/
+/build/
+!/build/phpunit.xml
+!/build/phpcs.xml

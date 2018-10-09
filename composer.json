@@ -1,0 +1,24 @@
+{
+    "name": "mindaugasj/staffer",
+    "authors": [
+        {
+            "name": "Mindaugas Jackūnas",
+            "email": "mindaugas@jackunas.lt"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Staffer\\": "src/",
+            "Staffer\\Tests\\": "tests/",
+            "Configuration\\": "config/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
